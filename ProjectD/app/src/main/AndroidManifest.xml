@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectd">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.ProjectD">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MovieActivity1"
+            android:label="군도 : 민란의 시대"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity1"
+            android:label="한줄평"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".WriteActivity1"
+            android:label="한줄평 쓰기"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MovieActivity2"
+            android:label="공조"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity2"
+            android:label="한줄평"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".WriteActivity2"
+            android:label="한줄평 쓰기"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MovieActivity3"
+            android:label="더 킹"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity3"
+            android:label="한줄평"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".WriteActivity3"
+            android:label="한줄평 쓰기"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MovieActivity4"
+            android:label="레지던트이블"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity4"
+            android:label="한줄평"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".WriteActivity4"
+            android:label="한줄평 쓰기"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MovieActivity5"
+            android:label="럭키"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ReadActivity5"
+            android:label="한줄평"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".WriteActivity5"
+            android:label="한줄평 쓰기"
+            android:theme="@style/Theme.ProjectD.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

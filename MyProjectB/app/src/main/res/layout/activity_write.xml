@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_back"
+        app:backgroundTint="@color/black" />
+
+    <RatingBar
+        android:id="@+id/star"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="0.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="ID"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edittext"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:hint="한 줄평 입력하기"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/write"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_review_selected"
+            android:onClick="writeClicked" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "MyOptionMenu"
+include ':app'
