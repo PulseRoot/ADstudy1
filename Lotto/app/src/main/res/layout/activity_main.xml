@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/money"
+        android:scaleType="fitStart"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/number6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/lottery_ball"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lotteryButton"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/lottery_whirl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
